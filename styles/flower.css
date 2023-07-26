@@ -1,0 +1,280 @@
+/* Flower header */
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flower {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.flower-content {
+    margin: 200px 0px 150px 240px;
+}
+
+.flower-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.flower-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.btn-primary {
+    padding: 20px 40px;
+    margin-top: 30px;
+    border-radius: 8px;
+    background: #E55473;
+    color: aliceblue;
+    border: #E55473;
+}
+
+.flower-pic {
+    margin: 50px 240px 0px 100px;
+}
+
+
+
+/* Flower Main Section */
+
+
+.feature {
+    margin: 180px 240px;
+    background: #FFF;
+}
+
+.feature-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin: 25px 520px 50px 520px;
+
+}
+
+.feature-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.flower-name {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 35px;
+}
+
+.feature-image-a {
+    padding: 110px 78px 0px 76px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(163, 15, 87, 0.15);
+}
+
+.feature-image-b {
+    padding: 117px 47px 51px 47px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.feature-image-c {
+    padding: 67px 75px 0px 75px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+
+
+
+
+/* Flower Offer Section */
+
+
+.flower-offer {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.offer-content {
+    margin: 230px 190px 165px 395px;
+    text-align: center;
+}
+
+.offer-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.off {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.offer-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.offer-pic {
+    margin: 100px 430px 100px 0px;
+}
+
+
+
+
+/* social section */
+
+
+.social-content {
+    text-align: center;
+    margin: 130px 660px 50px 660px;
+}
+
+.social-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.social-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.social-pic {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 250px 130px 250px;
+}
+
+
+
+
+/* deals section */
+
+
+
+
+.deals {
+    background-image: url("../images/Rectangle\ 9.png");
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    margin: 130px 180px 130px 260px;
+}
+
+.deals-content {
+    text-align: center;
+}
+
+.deals-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 125px 535px 5px 535px;
+}
+
+.deals-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 605px 10px 605px;
+}
+
+.type-email {
+    border-radius: 8px;
+    background: #FFF;
+    width: 650px;
+    height: 50px;
+    margin: 0px 20px 120px 290px;
+    padding-left: 20px;
+    border: #FFF;
+}
+
+
+
+
+/* footer section */
+
+
+.conclusion {
+    background-color: aqua;
+    text-align: center;
+}
+
+.footer-title {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    padding: 130px 835px 25px 835px;
+}
+
+.shop {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: #272727;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 650px 35px 650px;
+}
+
+.footer-text {
+    color: #272727;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 785px 130px 785px;
+}
